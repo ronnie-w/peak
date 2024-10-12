@@ -8,7 +8,7 @@ Ensure you have the following installed:
 * mpv? (Application uses [mpv](https://mpv.io/) for playing pomodoro audio alerts.
              It is not required for pomodoro to work)
 
-Build by running `make build` or `make build LISP=<your lisp implementation>`
+Build by running `make run` or `make run LISP=<your lisp implementation>`
 
 ## License
 
