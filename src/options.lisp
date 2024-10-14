@@ -105,7 +105,7 @@
 										(format nil "select * from ~a" table-name)))))
   (show-options))
 (defun view-incomplete () (view-data "tasks" "complete" "false"))
-(defun view-complete () (view-data "tasks" nil nil))
+(defun view-complete () (view-data "tasks" "complete" "true"))
 (defun view-milestones () (view-data "milestones" nil nil))
 (defun view-distractions () (view-data "distractions" nil nil))
 
